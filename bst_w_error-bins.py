@@ -78,17 +78,8 @@ class Node(object):
 
 
 
-if __name__ == '__main__':
-    search_tree = Node()
-    search_tree.insert(50)
-    search_tree.insert(30)
-    search_tree.insert(65)
-    search_tree.insert(75)
-    search_tree.print_in_order()
-    print(search_tree.is_valid())
-    assert search_tree.has(30)
-    assert search_tree.has(65)yu76
-    assert not search_tree.has(66)
+
+
 
 
   
